@@ -1,4 +1,4 @@
 # Z3us
-![zeus](https://github.com/Threat-Olympus/Z3us/assets/138703999/0d36a159-9ef7-456e-9aa5-ff6fcfa1b46a)
+A Web-App Threat Hunting Tool that works under Olympus Framework 
+at surface level.
 
-The Web-App Threat Hunting Tool

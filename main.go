@@ -1,6 +1,7 @@
 package main
 
 import (
+	"Z3us/modules"
 	"crypto/tls"
 	"fmt"
 	"net/http"
@@ -65,4 +66,10 @@ func checkSSL(host string) {
 	} else {
 		fmt.Println("SSL/TLS Handshake Successful.")
 	}
+
+	modules.sqlInject(userInputURL)
+	modules.OutdatedComponents(userInputURL)
+	modules.InsecureDesign(userInputURL)
+	modules.XSS(userInputURL)
+	modules.BrokenAccess(userInputURL)
 }
